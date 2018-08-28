@@ -7,11 +7,55 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Screen
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/screen/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Dezrez.Rezi.Client.Api - Gets the config back for a screen with a guid that
+    was registered against a branch
+  x-api-slug: apiscreenzconfigscreenid-get
+  description: Gets the config back for a screen with a guid that was registered against
+    a branch.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/screen/master/_listings/dezrez/apiscreenzconfigscreenid-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Gets the config back for a screen with a guid that
+    was registered against a branch
+  x-api-slug: apiscreenzregistered-get
+  description: Gets the config back for a screen with a guid that was registered against
+    a branch.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/screen/master/_listings/dezrez/apiscreenzregistered-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Sends a direct message to a screen name
+  x-api-slug: apitwitterdirectmessage-post
+  description: Sends a direct message to a screen name.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/screen/master/_listings/dezrez/apitwitterdirectmessage-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Sends a direct message to a screen name
+  x-api-slug: apitwittertweet-post
+  description: Sends a direct message to a screen name.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/screen/master/_listings/dezrez/apitwittertweet-post-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/dezrez
